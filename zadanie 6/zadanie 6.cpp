@@ -3,8 +3,10 @@ using namespace std;
 int main()
 {    
     int i;
-    for ()
-    
+    for (i; i > 10, i++) {
+        cout << "Podaj cyfrê: \n";
+        cin
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
