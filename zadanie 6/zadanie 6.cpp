@@ -3,10 +3,11 @@ using namespace std;
 int main() {
 	int cyfra_user;
 
-	for (cyfra_user; cyfra_user <= 10; cyfra_user++) {
+	for (int i = 0; i < 10; i++) {
 		cout << "Podaj cyfre";
 		cin >> cyfra_user;
 	}
+}
 	return 0;
 
 }
