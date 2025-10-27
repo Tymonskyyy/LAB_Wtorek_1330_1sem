@@ -3,9 +3,11 @@ using namespace std;
 int main()
 {    
     int i;
-    for (i; i > 10, i++) {
+	cout << "Podaj cyfrê: \n";
+
+    cin >>  i;
+    for (i; i > 10; i++) {
         cout << "Podaj cyfrê: \n";
-        cin
     }
 }
 
