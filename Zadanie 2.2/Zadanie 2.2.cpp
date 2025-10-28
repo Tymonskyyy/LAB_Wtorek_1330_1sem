@@ -1,17 +1,15 @@
-﻿#include <iosstream>
+﻿#include <iostream>
 using namespace std;
 int fun1(int a)
 {
 	cin >> a;
-	return a;
-
+	return 0;
 }
 int main()
 {
-	int a;
+	int a =0;
 	cout << "Podaj liczbe: \n";
 	fun1(a);
-	cout << "Podales liczbe: " << a << endl;
 	return 0;
 }
 
