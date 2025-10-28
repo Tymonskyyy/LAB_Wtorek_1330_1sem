@@ -7,5 +7,6 @@ int fun1(int a)
 }
 int main() {
 	cout << "Podaj pierwsz¹ liczbê: \n";
-
+	fun1(a);
+	return 0;
 }

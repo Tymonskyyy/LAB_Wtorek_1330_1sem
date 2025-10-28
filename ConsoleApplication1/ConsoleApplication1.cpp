@@ -4,8 +4,6 @@ int fun1(int a)
 {
 	cout << "Podaj pierwszą liczbę: \n";
 	cin >> a;
+	cout << a;
 }
-int main() {
-	cout << "Podaj pierwszą liczbę: \n";
-
-}
+fun1(a);
