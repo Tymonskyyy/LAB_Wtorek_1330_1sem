@@ -10,7 +10,7 @@ int main()
 	cin >> b;
 	int funckcja1(a, b);
 	{
-		if (a<b)
+		if (a < b)
 			cout << "Liczba mniejsza to: " << a << endl;
 		else
 			cout << "Liczba mniejsza to: " << b << endl;
