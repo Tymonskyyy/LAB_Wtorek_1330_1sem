@@ -6,19 +6,17 @@ int fun1(int a)
 	if (a < 0) {
 		cout << "Musi być dodatnia \n";
 	}
-	if (a % 2 == 0) {
-		cout << "Dzielnik" << endl;
-	}
-	else {
-		cout << "Niedzielnik" << endl;
-
+	for (int i = 1; i <= a; i++) {
+		if (a % i == 0) {
+			cout << i << " ";
+		}
 	}
 	
 	return 0;
 }
-int main()
-{
+int main(){
 	int a =0;
+	int i = 0;
 	cout << "Podaj liczbe: \n";
 	fun1(a);
 	return 0;
