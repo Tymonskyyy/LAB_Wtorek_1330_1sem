@@ -6,7 +6,7 @@ int dzilalnie(int a, int b, int i) {
         return 1;
 	}   
     for  (int i = 0; i < b; i++) {
-        int wynik = a*b;
+        int wynik = a*a;
 	}
 	return wynik;
 
