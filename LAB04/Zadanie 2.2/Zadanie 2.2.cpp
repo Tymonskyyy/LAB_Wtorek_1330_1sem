@@ -20,5 +20,7 @@ int main(){
 	cout << "Podaj liczbe: \n";
 	fun1(a);
 	return 0;
+	cout << "Koniec programu";
+
 }
 
