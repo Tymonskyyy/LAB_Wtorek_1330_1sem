@@ -1,28 +1,27 @@
 ﻿#include <iostream>
-#include <string>
 #include <algorithm>
 using namespace std;
-bool czy_palindrom(string slowo) {
-	if (slowo == string(slowo.rbegin(), slowo.rend())) {
-		return true;
+string odwroc (string slowo) {
+	int n = slowo.length();
+	string odwrocone = slowo;
+	for (int i = 0; i < n / 2; i++) {
+		swap(odwrocone[i], odwrocone[n - i - 1]);
 	}
-	if (slowo != string(slowo.rbegin(), slowo.rend())) {
-		return false;
+	if (slowo == odwrocone) {
+		cout << "Podane słowo jest polindromem." << endl;
 	}
+	else {
+		cout << "Podane słowo nie jest polindromem." << endl;
+	}
+	return odwrocone;
 }
 int main() {
-	cout << "Program do sprawdzania słow palindromicznych." << endl;
+	cout << "Program do sprawdzania czy dane słowa są polindromami." << endl;
 	string slowo;
-	cout << " Podaj słowo: ";
+	cout << "Podaj słowo: ";
 	cin >> slowo;
-	bool palindrom = true;
-	czy_palindrom(slowo);
-	if (true) {
-		cout << "TAK jest palindromem." << endl;
-	}
-	if (false){
-		cout << "NIE nie jest palindromem." << endl;
-
+	odwroc(slowo);
 	return 0;
-	}
+
+
 }
